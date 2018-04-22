@@ -1,0 +1,801 @@
+{
+    "games": [
+        {
+            "id": "game-1",
+            "title": "Assassin's Creed Syndicate",
+            "description": "Defeating the corrupt tyrants entrenched there will require not only s...",
+            "date": "2017-06-13 00: 00: 00.000",
+            "likes": 15,
+            "developed_by": "CD Projekt Red Studio CD Projekt S.A.",
+            "published_by": "Warner Bros. Interactive Entertainment",
+            "is_comming": false,
+            "image_url": "content/img/game/game-1.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "recent",
+            "platforms": [
+                "PC","XBOX ONE","PS4"
+            ]
+        },
+        {
+            "id": "game-2",
+            "title": "Rise of the Tomb Raider",
+            "description": "Tomb Raider, Lara becomes more than a survivor as she embarks on her f...",
+            "date": "2015-11-10 00: 00: 00.000",
+            "likes": 80,
+            "developed_by": "CD Projekt Red Studio CD Projekt S.A.",
+            "published_by": "Warner Bros. Interactive Entertainment",
+            "is_comming": false,
+            "image_url": "content/img/game/game-2.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "recent",
+            "platforms":["XBOX ONE","PS4","PC"]
+        },
+        {
+            "id": "game-3",
+            "title": "The Witcher 3: Wild Hunt",
+            "description": "The world is in chaos. The air is thick with tension and the smoke of ...",
+            "date": "2017-03-15 00: 00: 00.000",
+            "likes": 23,
+            "developed_by": "CD Projekt Red Studio CD Projekt S.A.",
+            "published_by": "Warner Bros. Interactive Entertainment",
+            "is_comming": false,
+            "image_url": "content/img/game/game-3.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "recent",
+            "platforms":[ "PS4"]
+        },
+        {
+            "id": "game-4",
+            "title": "Grand Theft Auto V",
+            "description": "Trouble taps on your window again with this next chapter in the Grand ...",
+            "date": "2017-02-02 00: 00: 00.000",
+            "likes": 19,
+            "developed_by": "CD Projekt Red Studio CD Projekt S.A.",
+            "published_by": "Warner Bros. Interactive Entertainment",
+            "is_comming": false,
+            "image_url": "content/img/game/game-4.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "recent",
+            "platforms":["STEAM"]
+        },
+        {
+            "id": "game-5",
+            "title": "Deadpool The Game",
+            "description": "There are a few important things I need to say before you crack into m...",
+            "date": "2017-08-10 00: 00: 00.000",
+            "likes": 19,
+            "developed_by": "CD Projekt Red Studio CD Projekt S.A.",
+            "published_by": "Warner Bros. Interactive Entertainment",
+            "is_comming": false,
+            "image_url": "content/img/game/game-5.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "recent",
+            "platforms":["PS4"]
+        },
+        {
+            "id": "game-6",
+            "title": "Grand Theft Auto Online",
+            "description": "Grand Theft Auto Online is designed to continually expand and evolve o...",
+            "date": "2017-02-16 00: 00: 00.000",
+            "likes": 19,
+            "developed_by": "CD Projekt Red Studio CD Projekt S.A.",
+            "published_by": "Warner Bros. Interactive Entertainment",
+            "is_comming": false,
+            "image_url": "content/img/game/game-6.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "recent",
+            "platforms":["STEAM"]
+        },
+        {
+            "id": "game-7",
+
+            "title": "Uncharted 4: A Thief's End",
+            "description": "Nathan Drake has presumably left the world of fortune hunting behind.",
+            "date": "2016-05-10 00: 00: 00.000",
+            "likes": 17,
+            "developed_by": "CD Projekt Red Studio CD Projekt S.A.",
+            "published_by": "Warner Bros. Interactive Entertainment",
+            "is_comming": false,
+            "image_url": "content/img/game/game-7.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "hot",
+            "platforms":["PS4"]
+        },
+        {
+            "id": "game-8",
+
+            "title": "Mass Effect: Andromeda",
+            "description": "A whole new galaxy awaits for you to explore. Mass Effect: Andromeda p...",
+            "date": "2015-06-14 00: 00: 00.000",
+            "likes": 17,
+            "developed_by": "CD Projekt Red Studio CD Projekt S.A.",
+            "published_by": "Warner Bros. Interactive Entertainment",
+            "is_comming": false,
+            "image_url": "content/img/game/game-8.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "hot",
+            "platforms":["XBOX ONE"]
+        },
+        {
+            "id": "game-9",
+
+            "title": "Hitman: Absolution",
+            "description": "Hitman Absolution is the 5th installment in the Hitman series where pl...",
+            "date": "2016-06-10 00: 00: 00.000",
+            "likes": 17,
+            "developed_by": "CD Projekt Red Studio CD Projekt S.A.",
+            "published_by": "Warner Bros. Interactive Entertainment",
+            "is_comming": false,
+            "image_url": "content/img/game/game-9.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "hot",
+            "platforms":["XBOX ONE"]
+        },
+        {
+            "id": "game-10",
+
+            "title": "Alien: Isolation",
+            "description": "Alien Isolation sees you take on the role of Amanda Ripley as she face...",
+            "date": "2015-10-07 00: 00: 00.000",
+            "likes": 30,
+            "developed_by": "CD Projekt Red Studio CD Projekt S.A.",
+            "published_by": "Warner Bros. Interactive Entertainment",
+            "is_comming": false,
+            "image_url": "content/img/game/game-10.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "hot",
+            "platforms":["STEAM"]
+        },
+        {
+            "id": "game-11",
+            "title": "Bioshock Infinite",
+            "description": "BioShock Infinite is a first person shooter where players assume the r...",
+            "date": "2017-03-26 00: 00: 00.000",
+            "likes": 12,
+            "developed_by": "CD Projekt Red Studio CD Projekt S.A.",
+            "published_by": "Warner Bros. Interactive Entertainment",
+            "is_comming": false,
+            "image_url": "content/img/game/game-11.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "hot",
+            "platforms":["STEAM"]
+        },
+        {
+            "id": "game-12",
+            "title": "Fallout 4",
+            "description": "As the sole survivor of Vault 111, you enter a world destroyed by nucl...",
+            "date": "2016-11-20 00: 00: 00.000",
+            "likes": 12,
+            "developed_by": "CD Projekt Red Studio CD Projekt S.A.",
+            "published_by": "Warner Bros. Interactive Entertainment",
+            "is_comming": false,
+            "image_url": "content/img/game/game-12.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": null,
+            "platforms": ["XBOX ONE"]
+        }
+    ],
+    "reviews": [
+        {
+            "id": "review-1",
+            "title": "Uncharted 4",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "rate": 7.2,
+            "user_id": "",
+            "image_url": "content/img/review/review-1.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "recent"
+        },
+        {
+            "id": "review-2",
+            "title": "Hitman: Absolution",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "rate": 5.4,
+            "user_id": "",
+            "image_url": "content/img/review/review-2.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "recent"
+        },
+        {
+            "id": "review-3",
+            "title": "Last of us: Remastered",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "rate": 2.1,
+            "user_id": "",
+            "image_url": "content/img/review/review-3.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "recent"
+        },
+        {
+            "id": "review-4",
+            "title": "Bioshock: Infinite",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "rate": 7.8,
+            "user_id": "",
+            "image_url": "content/img/review/review-4.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": "recent"
+        },
+        {
+            "id": "review-5",
+            "title": "Grand Theft Auto: 5",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "rate": 8.9,
+            "user_id": "",
+            "image_url": "content/img/review/review-5.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": null
+        },
+        {
+            "id": "review-6",
+            "title": "Dayz",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "rate": 4.7,
+            "user_id": "",
+            "image_url": "content/img/review/review-6.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": null
+        },
+        {
+            "id": "review-7",
+            "title": "Liberty City",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "rate": 3.1,
+            "user_id": "",
+            "image_url": "content/img/review/review-7.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "category": null
+        }
+    ],
+    "blogs": [
+        {
+            "id": "blog-1",
+            "title": "Days Gone Changes Everything About Zombie Games",
+            "description": "There's more to Bend Studio's latest game than just zombies and homicidal marauders. Of the number of reasons to feel optimistic about Days Gonee.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "constantine",
+            "image_url": "https://i.ytimg.com/vi/wqLIeIKAMsU/mqdefault.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-2",
+            "title": "Wolfenstein 2 Has A Submarine Hub That Lets You Travel",
+            "description": "It doesn't take a treasure hunter to figure out that an Uncharted without Nathan Drake would be a narratively different experience.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "venom",
+            "image_url": "https://i.ytimg.com/vi/9EzRBzdf--g/mqdefault.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-3",
+            "title": "For Honor Adds New Maps And Characters Today With Season 2 DLC Launch",
+            "description": "Check out new gameplay videos of the two new characters here; new maps are also debuting today for all players.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "lobo",
+            "image_url": "https://i.ytimg.com/vi/orVd8a2eafw/mqdefault.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{}]
+        },
+        {
+            "id": "blog-4",
+            "title": "Mafia III Stones Unturned DLC Launch Trailer",
+            "description": "Stones Unturned, the second of three DLC releases, is now available individually or collectively as part of the Season Pass.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "lobo",
+            "image_url": "https://i.ytimg.com/vi/B6qY-P4eo1Q/mqdefault.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-5",
+            "title": "Far Cry 5's New Location May Not Be Enough",
+            "description": "Far Cry 5 drops you into the beautiful countryside of Montana. The location is a departure from previous games, but is that enough?",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "venom",
+            "image_url": "https://i.ytimg.com/vi/kUKrStkG-hE/mqdefault.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-6",
+            "title": "Metro Redux is More Than Just an HD Remake",
+            "description": "Metro Redux, the enhanced re-release of Metro 2033 and sequel Metro: Last Light are now just a week away.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "geralt",
+            "image_url": "https://i.ytimg.com/vi/-PohBqV_i7s/mqdefault.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-7",
+            "title": "Fallout 4 Surpasses Skyrim To Become Bethesda's Most Successful Game Ever",
+            "description": "Appearing on the Kinda Funny Gamecast, Bethesda marketing executive Pete Hines said.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "venom",
+            "image_url": "https://i.ytimg.com/vi/SY8y9DoOhSA/mqdefault.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-8",
+            "title": "Watch Deadpool's Funny Trailer That Teases an Actual Trailer",
+            "description": "The video is full of jokes, including self-referential jabs about how silly it is to have a trailer for a trailer. The lighthearted nature is no surprise; after all.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "lobo",
+            "image_url": "https://i.ytimg.com/vi/QEuEOugOXcc/mqdefault.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-9",
+            "title": "Final Fantasy 15 Update Removes Rails, Lets You Drive",
+            "description": "Square Enix has released a new update ahead of tomorrow's DLC chapter that adds a new off-road customization option for the Regalia.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "venom",
+            "image_url": "https://i.ytimg.com/vi/N1NsF9c90f0/mqdefault.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-10",
+            "title": "Call Of Duty WW2's New War Mode Makes Multiplayer Fresh",
+            "description": "The new objective-driven mode is a welcome change from the Call of Duty multiplayer staples.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "venom",
+            "image_url": "https://i.ytimg.com/vi/feqIj5PaqCQ/mqdefault.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{},{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-r1",
+            "title": "Titanfall 2's Trophies Only Have 3 Earned Through Multiplayer",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. But neither easy or even before this.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "Constantine",
+            "image_url": "https://i1.ytimg.com/vi/4BLkEJu9szM/mqdefault.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-p1",
+            "title": "Red Dead Redemption Being Modded Into GTA5 Multiplayer",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel neque sed anter.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "Constantine",
+            "image_url": "content/img/blog/blog-widget-popular-1.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-rl1",
+            "title": "Dead Island 2 and Escape Impressions",
+            "description": "There's more to Bend Studio's latest game than just zombies and homicidal marauders. Of the number of reasons to feel optimistic about Days Gonee.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "Constantine",
+            "image_url": "content/img/blog/blog-widget-1.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-rl2",
+            "title": "How to Finish Mafia 3 With All of Your Underbosses",
+            "description": "It doesn't take a treasure hunter to figure out that an Uncharted without Nathan Drake would be a narratively different experience.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "Venom",
+            "image_url": "content/img/blog/blog-widget-2.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-rl3",
+            "title": "Spider-Man Spin-Off, Venom, Gets Release Date",
+            "description": "Check out new gameplay videos of the two new characters here; new maps are also debuting today for all players.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "Lobo",
+            "image_url": "content/img/blog/blog-widget-3.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{}]
+        },
+        {
+            "id": "blog-rl4",
+            "title": "Is Ghost Recon: Wildlands Worth Your Time?",
+            "description": "Stones Unturned, the second of three DLC releases, is now available individually or collectively as part of the Season Pass.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "Lobo",
+            "image_url": "content/img/blog/blog-widget-4.jpg",
+            "video_url": "W2Wnvvj33Wo",
+            "comments": [{},{},{},{},{},{},{}]
+        },
+        {
+            "id": "blog-g1",
+            "title": "The Witcher 3: Don't Miss This Hidden Contract in Blood and Wine",
+            "description": "There's more to Bend Studio's latest game than just zombies and homicidal marauders. Of the number of reasons to feel optimistic about Days Gonee.",
+            "content": "The Witcher 3: Wild Hunt, officially announced in February 3, 2013, is an action-role playing video game developed by Polish studio, CD Projekt RED. It is the third title in The Witcher video game series, based on The Witcher saga, a collection of short stories by Polish author, Andrzej Sapkowski. Player have access to a in-game glossary. This allows players to read up on characters, bestiary, crafting and game mechanics. The bestiary tab gives detailed information about the beast in question, but also gives insight into their vulnerabilities. The tutorial tab allows for a deeper explanation on the game's mechanics. The character tab will give a condensed biography on the games characters.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "venom",
+            "image_urls": [
+                "content/img/game/post-1.jpg"
+            ],
+            "video_url": null,
+            "platforms": [
+                "PS4",
+                "Xbox One"
+            ],
+            "comments": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "gameId": "game-2"
+        },
+        {
+            "id": "blog-g2",
+            "title": "The Witcher 3: Game of the Year Edition Release Date Announced",
+            "description": "There's more to Bend Studio's latest game than just zombies and homicidal marauders. Of the number of reasons to feel optimistic about Days Gonee.",
+            "content": "The game plays much like the previous installment, <b>The Witcher 3</b>, with minor refinements made. The game will track both player choice and actions which ultimately affect how the game will end. The developers say that these choices can either be very tiny or absolutely major.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "elizabeth",
+            "image_urls": [
+                "https://img.youtube.com/vi/kZb9gnrnxS0/maxresdefault.jpg",
+                "https://img.youtube.com/vi/dPCPRtEf5IU/maxresdefault.jpg"
+            ],
+            "video_url": null,
+            "platforms": [
+                "Xbox One"
+            ],
+            "comments": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "gameId": "game-2"
+        },
+        {
+            "id": "blog-g3",
+            "title": "The Witcher 3: Wild Hunt 35 Minutes of Gameplay",
+            "description": "There's more to Bend Studio's latest game than just zombies and homicidal marauders. Of the number of reasons to feel optimistic about Days Gonee.",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elit ante, congue sodales orci ac, ultrices pretium lectus. Maecenas lorem enim, dignissim sed lacus non, feugiat iaculis lorem. Integer eu aliquet diam. Suspendisse fringilla porta justo, vel tempus risus. Ut et enim sit amet libero fermentum aliquam et ut sem.",
+            "date": "2017-06-13 00: 00: 00.000",
+            "username": "trevor",
+            "image_urls": [],
+            "video_url": "N4ony2r0QFs",
+            "platforms": [
+                "PS4"
+            ],
+            "comments": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "gameId": "game-2"
+        }
+    ],
+    "tags": [
+        {
+            "id": "tag-1",
+            "title": "playstation 4"
+        },
+        {
+            "id": "tag-2",
+            "title": "remastered"
+        },
+        {
+            "id": "tag-3",
+            "title": "uncharted"
+        },
+        {
+            "id": "tag-4",
+            "title": "game"
+        },
+        {
+            "id": "tag-5",
+            "title": "blood and wine"
+        },
+        {
+            "id": "tag-6",
+            "title": "games"
+        }
+    ],
+    "videos": [
+        {
+            "id": "video-1",
+            "title": "Tom Clancy's Ghost Recon: Wildlands",
+            "time": "4:32",
+            "image_url": "https://i1.ytimg.com/vi/GaERL8Nrl9k/mqdefault.jpg",
+            "date": "2017-06-13 00: 00: 00.000",
+            "views": 423,
+            "description": "Defeating the corrupt tyrants entrenched there will require not only strength.",
+            "video_url": "BhTkoDVgF6s",
+            "category": "recent"
+        },
+        {
+            "id": "video-2",
+            "title": "Final Fantasy VII Remake",
+            "time": "6:46",
+            "image_url": "https://i.ytimg.com/vi/N1NsF9c90f0/mqdefault.jpg",
+            "date": "2017-06-13 00: 00: 00.000",
+            "views": 589,
+            "description": "Final Fantasy VII Remake was revealed at E3 2015 and we've gotten very little news.",
+            "video_url": "BhTkoDVgF6s",
+            "category": "recent"
+        },
+        {
+            "id": "video-3",
+            "title": "Anthem Official Gameplay Reveal",
+            "time": "4:32",
+            "image_url": "https://i1.ytimg.com/vi/mW4LMCtoIkg/mqdefault.jpg",
+            "date": "2017-06-13 00: 00: 00.000",
+            "views": 1798,
+            "description": "In Anthem, a new shared-world action-RPG from EA's BioWare studio.",
+            "video_url": "BhTkoDVgF6s",
+            "category": "recent"
+        },
+        {
+            "id": "video-4",
+            "title": "Top 5 Brutal Gameplay Moments",
+            "time": "4:32",
+            "image_url": "https://i.ytimg.com/vi/orVd8a2eafw/mqdefault.jpg",
+            "date": "2017-06-13 00: 00: 00.000",
+            "views": 6521,
+            "description": "Check out these 5 brutal For Honor clips shared by you.",
+            "video_url": "BhTkoDVgF6s",
+            "category": "recent"
+        },
+        {
+            "id": "video-5",
+            "title": "Spider-Man Official 4K Trailer",
+            "time": "15:56",
+            "image_url": "https://i.ytimg.com/vi/lQXpDL3SNWQ/mqdefault.jpg",
+            "date": "2017-06-13 00: 00: 00.000",
+            "views": 447,
+            "description": "Spider-Man for PS4 was a surprise hit last year, will we see it at...",
+            "video_url": "BhTkoDVgF6s",
+            "category": "recent"
+        },
+        {
+            "id": "video-6",
+            "title": "Wolfenstein II Gameplay Trailer",
+            "time": "1:24",
+            "image_url": "https://i1.ytimg.com/vi/9EzRBzdf--g/mqdefault.jpg",
+            "date": "2017-06-13 00: 00: 00.000",
+            "views": 7330,
+            "description": "The latest installment in the post-apocalyptic first-person shooter from...",
+            "video_url": "BhTkoDVgF6s",
+            "category": "recent"
+        },
+        {
+            "id": "video-7",
+            "title": "The Last Guardian Pet Cosplay ContestThe Last Guardian Pet Cosplay Contest",
+            "time": "1:28",
+            "image_url": "https://i.ytimg.com/vi/ckUrcdnWZ2g/mqdefault.jpg",
+            "date": "2017-06-13 00: 00: 00.000",
+            "views": 812,
+            "description": "Take a sneak peek at some new footage for The Last Guardian.",
+            "video_url": "ckUrcdnWZ2g",
+            "category": "recent"
+        },
+        {
+            "id": "video-8",
+            "title": "Shadow of War Gameplay Walkthrough",
+            "time": "1:24",
+            "image_url": "https://i1.ytimg.com/vi/-PohBqV_i7s/mqdefault.jpg",
+            "date": "2017-06-13 00: 00: 00.000",
+            "views": 7330,
+            "description": "Join us as we take a look at Shadow of War and discuss...",
+            "video_url": "-PohBqV_i7s",
+            "category": "recent"
+        },
+        {
+            "id": "video-o1",
+            "title": "For Honor: Walkthrough Gameplay Warlords",
+            "time": "5:32",
+            "date" : "2017-06-13 00: 00: 00.000",
+            "views": 423,
+            "description": "Defeating the corrupt tyrants entrenched there will require not only strength.",
+            "image_url": "https://img.youtube.com/vi/BhTkoDVgF6s/maxresdefault.jpg",
+            "video_url": "BhTkoDVgF6s"
+        }
+    ],
+    "forums": [
+        {
+            "id": "forum-1",
+            "title": "Games Discussion",
+            "description": "Disquss everything about games and videos here.",
+            "icon" : "comments",
+            "topics": 71,
+            "replies": 405,
+            "status": null,
+            "isClosed": "false",
+            "latestPost": {
+                "title": "Call of Duty: Infinite Warfare",
+                "username": "venom",
+                "date": "2017-12-05 00: 00: 00.000"
+            },
+            "category": "general"
+        },
+        {
+            "id": "forum-2",
+            "title": "Gametrailers",
+            "description": "Share game trailers about your favourite game.",
+            "icon" : "film",
+            "topics": 35,
+            "replies": 6305,
+            "status": "new",
+            "isClosed": "false",
+            "latestPost": {
+                "title": "Machinima Videos",
+                "username": "elizabeth",
+                "date": "2017-12-05 00: 00: 00.000"
+            },
+            "category": "general"
+        },
+        {
+            "id": "forum-3",
+            "title": "Recent Photos",
+            "description": "New pictures from upcoming games.",
+            "icon" : "camera-retro",
+            "topics": 138,
+            "replies": 906,
+            "status": null,
+            "isClosed": "false",
+            "latestPost": {
+                "title": "Grand Theft Auto Modding",
+                "username": "clark",
+                "date": "2017-12-05 00: 00: 00.000"
+            },
+            "category": "general"
+        },
+        {
+            "id": "forum-4",
+            "title": "Closed Thread",
+            "description": "This is an example for locked forum.",
+            "icon" : "lock",
+            "topics": 16,
+            "replies": 70,
+            "status": null,
+            "isClosed": "true",
+            "latestPost": {
+                "title": "Epic Gaming Theme",
+                "username": "strange",
+                "date": "2017-12-05 00: 00: 00.000"
+            },
+            "category": "general"
+        },
+        {
+            "id": "forum-5",
+            "title": "Bug Report",
+            "description": "Have a bug to report? Post here!",
+            "icon" : "bug",
+            "topics": 43,
+            "replies": 167,
+            "status": null,
+            "isClosed": "false",
+            "latestPost": {
+                "title": "Forum Close Tab",
+                "username": "elizabeth",
+                "date": "2017-12-05 00: 00: 00.000"
+            },
+            "category": "general"
+        },
+        {
+            "id": "forum-6",
+            "title": "Rebel Forces",
+            "description": "The force is with you!",
+            "icon" : "rebel",
+            "topics": 79,
+            "replies": 427,
+            "status": null,
+            "isClosed": "false",
+            "latestPost": {
+                "title": "SW Battlefront DLC",
+                "username": "strange",
+                "date": "2017-12-05 00: 00: 00.000"
+            },
+            "category": "general"
+        },
+        {
+            "id": "forum-7",
+            "title": "Bomb Squad",
+            "description": "Join to our bomb squad",
+            "icon" : "bomb",
+            "topics": 67,
+            "replies": 45,
+            "status": null,
+            "isClosed": "false",
+            "latestPost": {
+                "title": "Dust 2 map glitch",
+                "username": "venom",
+                "date": "2017-12-05 00: 00: 00.000"
+            },
+            "category": "general"
+        },
+        {
+            "id": "forum-8",
+            "title": "Twitch",
+            "description": "Share your achievements",
+            "icon" : "twitch",
+            "topics": 53,
+            "replies": 449,
+            "status": null,
+            "isClosed": "false",
+            "latestPost": {
+                "title": "Best streamer solutions",
+                "username": "clark",
+                "date": "2017-12-05 00: 00: 00.000"
+            },
+            "category": "platform"
+        },
+        {
+            "id": "forum-9",
+            "title": "Youtube",
+            "description": "Talking about streaming",
+            "icon" : "youtube-play",
+            "topics": 23,
+            "replies": 378,
+            "status": null,
+            "isClosed": "false",
+            "latestPost": {
+                "title": "Uploading videos",
+                "username": "elizabeth",
+                "date": "2017-12-05 00: 00: 00.000"
+            },
+            "category": "platform"
+        },
+        {
+            "id": "forum-10",
+            "title": "Steam",
+            "description": "Everyting about steam and sales",
+            "icon" : "steam",
+            "topics": 65,
+            "replies": 96,
+            "status": "sale",
+            "isClosed": "false",
+            "latestPost": {
+                "title": "Counter Strike",
+                "username": "venom",
+                "date": "2017-12-05 00: 00: 00.000"
+            },
+            "category": "platform"
+        }
+    ],
+    "avatars": [
+        {
+            "id": "venom",
+            "avatar_url": "content/img/user/user-1.jpg"
+        },
+        {
+            "id": "elizabeth",
+            "avatar_url": "content/img/user/user-2.jpg"
+        },
+        {
+            "id": "clark",
+            "avatar_url": "content/img/user/user-3.jpg"
+        },
+        {
+            "id": "strange",
+            "avatar_url": "content/img/user/user-4.jpg"
+        },
+        {
+            "id": "trevor",
+            "avatar_url": "content/img/user/user-5.jpg"
+        }
+    ]
+}

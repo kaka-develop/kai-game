@@ -1,0 +1,13 @@
+version: '2'
+services:
+    kaigamepost-app:
+        image: kaigamepost
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATA_MONGODB_URI=mongodb://kaigamepost-mongodb:27017
+            - SPRING_DATA_MONGODB_DATABASE=KaiGamePost
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+    kaigamepost-mongodb:
+        extends:
+            file: mongodb.yml
+            service: kaigamepost-mongodb

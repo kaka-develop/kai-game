@@ -1,0 +1,151 @@
+<!-- main -->
+<section class="bg-image">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="video-play">
+            <div class="embed-responsive embed-responsive-16by9">
+                <img class="embed-responsive-item" ng-src="{{vm.oneVideo.image_url}}">
+                <div class="video-caption">
+                    <h5>{{vm.oneVideo.title}}</h5>
+                    <span class="length">{{vm.oneVideo.time}}</span>
+                </div>
+                <div class="video-play-icon">
+                    <i class="fa fa-play"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="toolbar">
+    <div class="container">
+        <h5>
+            <i class="fa fa-film"></i> Recent Videos
+            <span>(123)</span>
+        </h5>
+        <form method="post">
+            <div class="form-group input-icon-right">
+                <i class="fa fa-search"></i>
+                <input type="text" class="form-control search-video form-control-secondary" id="search" placeholder="Search Video...">
+            </div>
+        </form>
+        <a class="btn btn-secondary m-l-10 float-left hidden-md-down" href="/video#" role="button">Filter Videos
+            <i class="fa fa-align-right"></i>
+        </a>
+        <a class="btn btn-primary btn-shadow float-right hidden-sm-down" href="/video#" role="button">Upload Video
+            <i class="fa fa-cloud-upload"></i>
+        </a>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="toolbar-custom">
+            <a class="btn btn-default btn-icon m-r-10 float-left hidden-sm-down" href="/video#" data-toggle="tooltip" title="refresh"
+               data-placement="bottom" role="button">
+                <i class="fa fa-refresh"></i>
+            </a>
+            <div class="dropdown float-left">
+                <button class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">All Platform
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item active" href="/video#">All Platform</a>
+                    <a class="dropdown-item" href="/video#">Playstation 4</a>
+                    <a class="dropdown-item" href="/video#">Xbox One</a>
+                    <a class="dropdown-item" href="/video#">Origin</a>
+                    <a class="dropdown-item" href="/video#">Steam</a>
+                </div>
+            </div>
+
+            <div class="btn-group float-right m-l-5 hidden-sm-down" role="group">
+                <a class="btn btn-default btn-icon" href="/video#" role="button">
+                    <i class="fa fa-th-large"></i>
+                </a>
+                <a class="btn btn-default btn-icon" href="/video#" role="button">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="dropdown float-right">
+                <button class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Date Added
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item active" href="/video#">Date Added</a>
+                    <a class="dropdown-item" href="/video#">Popular</a>
+                    <a class="dropdown-item" href="/video#">Newest</a>
+                    <a class="dropdown-item" href="/video#">Oldest</a>
+                </div>
+            </div>
+        </div>
+        <div class="row row-5">
+            <div ng-repeat="video in vm.videos" class="col-12 col-sm-6 col-md-3">
+                <div class="card card-video">
+                    <div class="card-img">
+                        <a href="/video/post">
+                            <img ng-src="{{video.image_url}}" alt="Tom Clancy's Ghost Recon: Wildlands">
+                        </a>
+                        <div class="card-meta">
+                            <span>{{video.time}}</span>
+                        </div>
+                    </div>
+                    <div class="card-block">
+                        <h4 class="card-title">
+                            <a href="/video/post">{{video.title}}</a>
+                        </h4>
+                        <div class="card-meta">
+                <span>
+                  <i class="fa fa-clock-o"></i>{{vm.timeDiffCurrent(video.date)}} ago</span>
+                            <span>{{video.views}} views</span>
+                        </div>
+                        <p>{{video.description}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination-results m-t-10">
+            <span>Showing 10 to 20 of 48 videos</span>
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="/video#" aria-label="Previous">
+                <span aria-hidden="true">
+                  <i class="fa fa-angle-left"></i>
+                </span>
+                        </a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" href="/video#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="/video#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="/video#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="/video#">4</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="/video#">5</a>
+                    </li>
+                    <li class="separate">
+                        <span>...</span>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="/video#">25</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="/video#" aria-label="Next">
+                <span aria-hidden="true">
+                  <i class="fa fa-angle-right"></i>
+                </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+<!-- /main -->

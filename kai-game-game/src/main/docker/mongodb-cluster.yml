@@ -1,0 +1,16 @@
+version: '2'
+services:
+    kaigamegame-mongodb:
+        image: mongo:3.4.8
+        ports:
+            - "27017:27017"
+        command: mongos --configdb kaigamegame-mongodb-config
+    kaigamegame-mongodb-node:
+        build:
+            context: .
+            dockerfile: mongodb/MongoDB.Dockerfile
+        command: mongod --replSet rs1 --noprealloc --smallfiles
+    kaigamegame-mongodb-config:
+        image: mongo:3.4.8
+        container_name: kaigamegame-mongodb-config
+        command: mongod --noprealloc --smallfiles --configsvr --dbpath /data/db

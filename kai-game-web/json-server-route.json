@@ -1,0 +1,16 @@
+{
+    "/api/*": "/$1",
+    "/:resource/post/:id": "/:resource/:id",
+    "/games/recent*": "/games?category=recent",
+    "/games/hot*": "/games?category=hot",
+    "/reviews/recent*": "/reviews?category=recent",
+    "/blogs/recommend/one*": "/blogs/blog-r1",
+    "/blogs/popular/one*": "/blogs/blog-p1",
+    "/blogs/related/:id*": "/blogs?id_like=blog-rl",
+    "/blogs/game/:id\\?*": "/blogs?gameId=:id",
+    "/tags/blog/popular*": "/tags",
+    "/videos/recent*": "/videos?category=recent",
+    "/videos/one*": "/videos/video-o1",
+    "/forums/general*": "/forums?category=general",
+    "/forums/platform*": "/forums?category=platform"
+}

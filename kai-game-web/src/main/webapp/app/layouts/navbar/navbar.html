@@ -1,0 +1,81 @@
+<!-- header -->
+<header id="header">
+    <div class="container">
+        <div class="navbar-backdrop">
+            <div class="navbar">
+                <div class="navbar-left">
+                    <a class="navbar-toggle">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <a href="/" class="logo">
+                        <img src="content/img/logo.png" alt="Gameforest - Game Theme HTML">
+                    </a>
+                    <nav class="nav">
+                        <ul>
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li class="has-dropdown mega-menu mega-games">
+                                <a href="/game/all">Games</a>
+                                <ul>
+                                    <li>
+                                        <div class="container">
+                                            <div class="row">
+
+                                                <div ng-repeat="game in vm.games" class="col">
+                                                    <div class="img">
+                                                        <a href="/game/post/{{game.id}}">
+                                                            <img ng-src="{{game.image_url}}" alt="Last of Us: Part 2">
+                                                        </a>
+                                                        <span class="badge badge-ps4">{{game.platforms[0]}}</span>
+                                                    </div>
+                                                    <h4>
+                                                        <a href="/game/post/{{game.id}}">{{game.title}}</a>
+                                                    </h4>
+                                                    <span>{{vm.stringToDate(game.date) | date:'MMMM dd, yyyy'}}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="/blog/all">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="/video/all">Videos</a>
+                            </li>
+                            <li>
+                                <a href="/forum/all">Forums</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nav navbar-right">
+                    <ul>
+                        <li class="hidden-xs-down">
+                            <a href="/login">Login</a>
+                        </li>
+                        <li class="hidden-xs-down">
+                            <a href="/register">Register</a>
+                        </li>
+                        <li>
+                            <a data-toggle="search">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-search">
+            <div class="container">
+                <form method="post">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <i class="fa fa-times close"></i>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- /header -->
